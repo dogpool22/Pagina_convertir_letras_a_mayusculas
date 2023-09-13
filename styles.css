@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.container {
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 600px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+textarea {
+    width: 100%;
+    height: 100px;
+    margin-bottom: 10px;
+    font-size: 18px;
+    color: black;
+}
+
+button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.clickable-button:active {
+    background-color: yellow; /* Cambio de color al hacer clic */
+}
+
+/* Estilo para ocultar elementos */
+.hidden {
+    display: none;
+}
+
+/* Estilo para el mensaje "Texto copiado!!!" */
+#copyMessage {
+    color: green; /* Color del mensaje */
+    font-weight: bold; /* Texto en negrita */
+    margin-top: 10px; /* Espacio superior */
+}
