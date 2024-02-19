@@ -18,13 +18,12 @@
         <div id="copyMessage" class="hidden">Texto copiado!!!</div>
     </div>
     <button id="copyButton">Copiar Texto</button>
+    <div class="container">
+        <!-- Otros elementos -->
+        <button id="goToPageButton">Ir a otra página</button>
+    </div>
     <script src="script.js"></script>
 </body>
-<div class="container">
-    <!-- Otros elementos -->
-    <button id="goToPageButton">Ir a otra página</button>
-</div>
-
 </html>
 
 
