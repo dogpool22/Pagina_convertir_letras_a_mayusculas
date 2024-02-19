@@ -20,6 +20,11 @@
     <button id="copyButton">Copiar Texto</button>
     <script src="script.js"></script>
 </body>
+<div class="container">
+    <!-- Otros elementos -->
+    <button id="goToPageButton">Ir a otra página</button>
+</div>
+
 </html>
 
 

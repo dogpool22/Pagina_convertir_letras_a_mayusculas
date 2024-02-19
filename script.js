@@ -69,4 +69,11 @@ clearButton.addEventListener('click', () => {
     copyMessage.classList.add('hidden');
 });
 
+const goToPageButton = document.getElementById('goToPageButton');
+
+goToPageButton.addEventListener('click', () => {
+    // Cambiar la URL a la que quieres redirigir
+    window.location.href = 'otra_pagina.php'; // Cambia 'otra_pagina.php' por la URL de tu otra página
+});
+
 
